@@ -1,0 +1,6 @@
+docker-compose.yaml
+Dockerfile
+README.md
+deployment
+Jenkinsfile
+__pycache__/*
