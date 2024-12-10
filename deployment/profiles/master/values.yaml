@@ -1,0 +1,14 @@
+newrelic:
+  labels: 'Environment:AWS-Master;Team:AioliOrgTest;Service:python-project-test'
+
+ingress_external:
+  enabled: false
+  host: python-project-test.master.squads-dev.com
+
+ingress_restricted:
+  enabled: true
+  host: python-project-test.master.squads-dev.com
+
+virtualservice_restricted:
+  enabled: false
+  host: use1-master-python-project-test.percipio.com
